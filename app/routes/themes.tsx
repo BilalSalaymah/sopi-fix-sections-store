@@ -1,6 +1,6 @@
 import { LoaderFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
-import { loader as themesLoader } from "./api/themes"; // let op: GEEN `type`
+import { loader as themesLoader } from "./data/themes";
 
 export const loader: LoaderFunction = async (args) => {
   return themesLoader(args);

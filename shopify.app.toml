@@ -3,7 +3,7 @@
 client_id = "57081f902cabd9da92abbaf00447ab88"
 name = "SopiFix-Sections-Store"
 handle = "sopifix-sections-store"
-application_url = "https://ccd-tribal-invention-guitar.trycloudflare.com"
+application_url = "https://matter-sizes-submissions-anniversary.trycloudflare.com"
 embedded = true
 
 [build]
@@ -27,9 +27,9 @@ scopes = "read_products,read_themes,write_products"
 
 [auth]
 redirect_urls = [
-  "https://ccd-tribal-invention-guitar.trycloudflare.com/auth/callback",
-  "https://ccd-tribal-invention-guitar.trycloudflare.com/auth/shopify/callback",
-  "https://ccd-tribal-invention-guitar.trycloudflare.com/api/auth/callback"
+  "https://matter-sizes-submissions-anniversary.trycloudflare.com/auth/callback",
+  "https://matter-sizes-submissions-anniversary.trycloudflare.com/auth/shopify/callback",
+  "https://matter-sizes-submissions-anniversary.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
